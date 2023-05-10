@@ -1,0 +1,166 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div{
+    padding: 30px;
+}
+
+h1{
+    padding-left: 30px;
+    color: plum;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+button{
+    margin-top:10px;
+    padding: 10px;
+    border-style: groove;
+    transition-duration: 0.4s;
+    background-color: white;
+    
+}
+
+#todoformcontainer{
+    flex-grow: 1;
+}
+
+select{
+    background-color: rgba(241, 231, 254, 0.8);
+    padding: 5px ;
+}
+
+#library{
+    flex-grow: 2;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(241, 231, 254, 0.8);
+}
+
+.projectitem{
+    border-style: groove;
+    padding: 20px;
+}
+
+.projectitem:hover{
+    
+    background-color:rgba(241, 231, 254, 0.8);
+    cursor: pointer;
+}
+
+#projectcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#therightside{
+    display: flex;
+    flex-direction: column;
+}
+
+.libraryCard{
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    border-color: rgba(241, 231, 254, 0.8);
+    justify-content: center;
+}
+
+.libraryCard h2{
+    color: plum;
+}
+
+.libraryCard button{
+    width: 50%;
+    border-style: groove;
+}
+
+input[type="checkbox"]{
+    transform: scale(1.5);
+    
+}
+
+input[type="checkbox"]{
+    background-color: plum;
+}
+
+p{
+    gap:10px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  #submit{
+    margin-top: 20px;
+  }
+
+
+#overlay {
+    position: fixed;
+    display: none;
+    /*width: 50%;
+    height: 50%;
+    top:50%;
+    left: 50%;*/
+    width: 100%;
+    height: 100%;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    /*transform:translate(-50%, -50%);*/
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  #expandedcard{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(144, 198, 149, 0.8);
+    display: flex;
+    flex-direction: column;
+  }
+
+  #prioritydiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+
+  .clickedbutton{
+    background-color: rgba(241, 231, 254, 0.8);
+  }
+
+  .highlight{
+    background-color: rgba(241, 231, 254, 0.8);
+  }
