@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div id="container">
+    <h1>Todo list 🍤</h1>
+    
+    <div id="todoformcontainer">
+        <form id="todoform">
+        <label for="Title">Title:</label>
+        <input type="text" id="title"><br><br>
+        <label for="Description">Description:</label>
+        <input type="text" id="description"><br><br>
+        <label for="Duedate">Due date:</label>
+        <input type="date" id="duedate"
+       value="2023-12-29"
+       min="2023-01-01" max="2026-12-31"><br><br>
+       <label for="Priority">Choose the priority:</label>
+       <select name="priority" id="priority">
+         <option value="Low">Low</option>
+         <option value="Medium">Medium</option>
+         <option value="High">High</option>
+       </select>
+       <br><br>
+       <label for="Project">Choose the project:</label>
+       <select name="project" id="project">
+         <option value="home">Home</option>
+         <option value="academic">Academic</option>
+         <option value="work">Work</option>
+       </select>
+    </form>
+    <button id="submit">Add todo item</button>
+</div>
+
+</div>
+<div id="therightside">
+<div id="projectcontainer">
+  <div id="all" class="projectitem">All to-do items</div>
+  <div id="home" class="projectitem">Home</div>
+  <div id="academic" class="projectitem">Academic</div>
+  <div id="work" class="projectitem">Work</div>
+</div>
+<div id="library">
+</div>
+</div>
+    <div id="overlay">
+        <div id="colorbox"></div>
+      </div>
+
+      
+    <script src="main.js"></script>
+</body>
+</html>
