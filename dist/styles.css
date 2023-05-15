@@ -9,6 +9,11 @@ div{
     padding: 30px;
 }
 
+#container{
+    background-color: rgba(241, 231, 254, 0.75);
+    height: 100vh;
+}
+
 h1{
     padding-left: 30px;
     color: plum;
