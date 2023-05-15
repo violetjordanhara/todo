@@ -4,7 +4,8 @@ Todo list app created with HTML, CSS and JS.
 
 ## Live preview
 
-[Link to live demo]
+![alt text](https://github.com/violetjordanhara/todo/blob/main/public/todopreview.png "preview of todo app")
+[Link to live demo](https://violetjordanhara.github.io/todo/)
 
 ## Tools
 
